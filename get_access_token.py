@@ -6,8 +6,8 @@ from pprint import pprint
 
 # Defining host is optional and default to https://tapi.telstra.com/v2
 api_instance = Telstra_Messaging.AuthenticationApi(Telstra_Messaging.ApiClient())
-client_id = 'Mr0NZxs2KsXcbqXJOgX1PRMtP4zkkgwG' # str |
-client_secret = 'qy7JjW8g98397oAM' # str |
+client_id = '' # str |
+client_secret = '' # str |
 grant_type = 'client_credentials' # str |  (default to 'client_credentials')
 scope = 'scope_example' # str | NSMS (optional)
 
